@@ -1,3 +1,8 @@
+---
+name: User story
+about: This is my user story template
+---
+
 **As a** [role]  
 **I need** [function]  
 **So that** [benefit]  
