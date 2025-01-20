@@ -1,6 +1,7 @@
 ---
 name: User story
 about: This is my user story template
+labels: ["New Issues"]
 ---
 
 **As a** [role]  
