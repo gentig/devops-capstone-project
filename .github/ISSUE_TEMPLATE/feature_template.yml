@@ -1,16 +1,8 @@
 name: Feature Template
-description: Template with Title, Description, Version, and More fields
+description: Template with Description, Version, and More fields
 title: "[Feature]: "
 labels: []
 body:
-  - type: input
-    id: title
-    attributes:
-      label: Title
-      description: Enter the title
-      placeholder: "Short summary/title"
-    validations:
-      required: true
   - type: textarea
     id: description
     attributes:
