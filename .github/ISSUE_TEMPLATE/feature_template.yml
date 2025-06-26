@@ -1,0 +1,37 @@
+name: Feature Template
+description: Template with Title, Description, Version, and More fields
+title: "[Feature]: "
+labels: []
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Enter the title
+      placeholder: "Short summary/title"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a detailed description
+      placeholder: "Describe the feature or request"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Specify the version (if applicable)
+      placeholder: "e.g., 1.0.0"
+    validations:
+      required: false
+  - type: textarea
+    id: more
+    attributes:
+      label: More
+      description: Any additional information
+      placeholder: "Add further context or details here"
+    validations:
+      required: false
